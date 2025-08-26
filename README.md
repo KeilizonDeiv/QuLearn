@@ -39,6 +39,44 @@ QuLearn solves this by offering:
 
 ---
 
-## 📂 Project Structure  
 
-### **Flutter Frontend (`qulearn_app/`)**
+---
+
+## 🚀 Features  
+
+✅ Student Authentication (Login & Signup)  
+✅ AI Tutor (step-by-step explanations)  
+✅ Quiz Generator (practice quizzes)  
+✅ Learning Materials (static + AI-enhanced)  
+✅ Progress Tracker (charts & analytics)  
+✅ Profile & Subscription (Free vs Premium)  
+
+---
+
+## 📈 Roadmap  
+
+- [x] Project structure setup  
+- [ ] Backend API with AI explanations  
+- [ ] Flutter app with login & home screen  
+- [ ] AI Quiz generator integration  
+- [ ] Progress tracker with charts  
+- [ ] Subscription system (Free vs Premium)  
+- [ ] Deploy to Web + Mobile  
+
+---
+
+## 👨‍💻 Developer  
+
+- **Project by:** *Keilizon-Deiv D. Leones*  
+- **Role:** Solo Developer (Frontend + Backend + AI)  
+- **Goal:** Provide affordable and intelligent learning support for students  
+
+---
+
+## 📜 License  
+
+This project is licensed under the **MIT License**.  
+Feel free to fork, modify, and contribute!  
+
+---
+
