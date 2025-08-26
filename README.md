@@ -76,7 +76,6 @@ QuLearn solves this by offering:
 ## 📜 License  
 
 This project is licensed under the **MIT License**.  
-Feel free to fork, modify, and contribute!  
 
 ---
 
