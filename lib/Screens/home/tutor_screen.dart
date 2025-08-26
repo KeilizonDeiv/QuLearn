@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:qulearn/widgets/responsive_scaffold.dart';
 
 class TutorScreen extends StatelessWidget {
   const TutorScreen({super.key});
@@ -8,8 +9,7 @@ class TutorScreen extends StatelessWidget {
     final TextEditingController controller = TextEditingController();
     return Scaffold(
       appBar: AppBar(automaticallyImplyLeading: false, title: const Text('AI Tutor')),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
+      body: ResponsiveBody(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
@@ -29,15 +29,13 @@ class TutorScreen extends StatelessWidget {
               child: const Text('Ask'),
             ),
             const SizedBox(height: 24),
-            Expanded(
-              child: Container(
-                padding: const EdgeInsets.all(16),
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(12),
-                  color: Theme.of(context).colorScheme.surfaceVariant,
-                ),
-                child: const Text('Response will appear here...'),
+            Container(
+              padding: const EdgeInsets.all(16),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(12),
+                color: Theme.of(context).colorScheme.surfaceVariant,
               ),
+              child: const Text('Response will appear here...'),
             ),
           ],
         ),

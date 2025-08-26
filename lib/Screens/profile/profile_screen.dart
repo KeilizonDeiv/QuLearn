@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:qulearn/widgets/responsive_scaffold.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
@@ -7,8 +8,7 @@ class ProfileScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(automaticallyImplyLeading: false, title: const Text('Profile')),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
+      body: ResponsiveBody(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
